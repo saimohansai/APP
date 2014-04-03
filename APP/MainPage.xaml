@@ -43,15 +43,18 @@
         <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
             <TextBlock Text="MY APPLICATION" Style="{StaticResource PhoneTextNormalStyle}" Margin="12,0"/>
             <TextBlock Text="Mohansai" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
-            <Button Content="Canel"/>
+            <Button Content="action"/>
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <TextBlock HorizontalAlignment="Left" Margin="46,76,0,0" TextWrapping="Wrap" Text="ok" VerticalAlignment="Top"/>
-            <TextBox HorizontalAlignment="Left" Height="72" TextWrapping="Wrap" Text="fack" VerticalAlignment="Top" Width="456"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="test1" VerticalAlignment="Top"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="test1" VerticalAlignment="Top" Margin="117,231,0,0"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="test1" VerticalAlignment="Top" Margin="355,64,0,0"/>
 
         </Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="541,76,-73,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
 
         <!--Uncomment to see an alignment grid to help ensure your controls are
             aligned on common boundaries.  The image has a top margin of -32px to
