@@ -49,6 +49,7 @@
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <TextBlock HorizontalAlignment="Left" Margin="46,76,0,0" TextWrapping="Wrap" Text="ok" VerticalAlignment="Top"/>
+            <TextBox HorizontalAlignment="Left" Height="72" TextWrapping="Wrap" Text="fack" VerticalAlignment="Top" Width="456"/>
 
         </Grid>
 
